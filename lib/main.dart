@@ -5,6 +5,7 @@ import 'package:my_notes/config/constant/routes.dart';
 import 'package:my_notes/pages/auth/login_view.dart';
 import 'package:my_notes/pages/auth/registration_view.dart';
 import 'package:my_notes/pages/auth/verify_email_view.dart';
+import 'package:my_notes/pages/bloc/home_bloc_page.dart';
 import 'package:my_notes/pages/notes/create_update_note_view.dart';
 import 'package:my_notes/pages/notes/note_view.dart';
 
@@ -19,7 +20,8 @@ void main() {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RouterPage(title: appName),
+      // home: RouterPage(title: appName),
+      home: const BlocHomePage(),
       routes: {
         loginRoute: (context) => const LoginView(),
         registerRoute: (context) => const RegistrationView(),
@@ -34,3 +36,4 @@ void main() {
   );
 }
 // BF6A-3EEB
+
