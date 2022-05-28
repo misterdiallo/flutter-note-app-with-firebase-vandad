@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092810052897",
+    "project_id": "vandadcourse",
+    "storage_bucket": "vandadcourse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092810052897:android:33edfc39624cb724c41a60",
+        "android_client_info": {
+          "package_name": "com.misterdiallo.vandadcourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092810052897-m5sabtdf1pt1ogj3glit4ucronapi7mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbraQnCJlnxvuTm0v3j_1XY4uAi1ZPMeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092810052897-m5sabtdf1pt1ogj3glit4ucronapi7mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
